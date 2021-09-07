@@ -1,0 +1,36 @@
+.product-table__sortByCount-btn,
+.product-table__sortByPrice-btn {
+  background: white;
+  border: none;
+  position: relative;
+}
+
+.up::after {
+  content: '';
+  position: absolute;
+  width: 0px;
+  height: 0px;
+  bottom: 5px;
+  border-top: none;
+  border-left: 6px solid transparent;
+  border-right: 6px solid transparent;
+  border-bottom: 6px solid black;
+  cursor: pointer;
+}
+
+.down::after {
+  content: '';
+  position: absolute;
+  width: 0px;
+  height: 0px;
+  bottom: 5px;
+  border-top: none;
+  border-left: 6px solid transparent;
+  border-right: 6px solid transparent;
+  border-top: 6px solid black;
+  cursor: pointer;
+}
+
+.addUpdate-form {
+  display: flex;
+}
